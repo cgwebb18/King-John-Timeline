@@ -1,0 +1,20 @@
+.tl-timenav{
+    background-color: #81c6d1;
+}
+
+.tl-timemarker-content {
+    background-color: #656789;
+    overflow: visible;
+}
+
+h2.tl-headline {
+    size: 20px;
+}
+
+.tl-text .tl-headline-date, .tl-text h3.tl-headline-date {
+    color: #fff;
+}
+
+h3.tl-headline-date {
+    color: #fff;
+}

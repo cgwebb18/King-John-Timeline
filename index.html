@@ -1,9 +1,10 @@
 <!DOCTYPE HTML>
 <html>
     <head>
-        <link rel='stylesheet' type='text/css' href='styling.css'/>
+        
         <link title="timeline-styles" rel="stylesheet" href="https://cdn.knightlab.com/libs/timeline3/latest/css/timeline.css">
         <script src="https://cdn.knightlab.com/libs/timeline3/latest/js/timeline.js"></script>
+        <link rel='stylesheet' type='text/css' href='john_style.css'/>
         
     </head>
     <div id='timeline-embed' style="width: 100%; height: 600px"></div>
@@ -21,29 +22,5 @@
         // optionally, a third argument with configuration options can be passed.
         // See below for more about options.
         timeline = new TL.Timeline('timeline-embed','https://docs.google.com/spreadsheets/d/1I0fxrEClWzyZeXgKOAijoihs7NoIFC3enNaT4GA-bkI/edit#gid=0', options);
-        
-        //add ids to dynamically created html for styling
-//        var groups = document.getElementsByClassName('tl-timegroup')
-//        var len = groups.length
-//        for (var i = 0; i < len; i++){
-//            group = groups[i]
-//            message = group.children[0]
-//            name = group.children[0].textContent
-//            if (name == 'Personal Life') {
-//                group.id = 'p1'
-//                message.id = 'p1_message'
-//            }
-//            else if (name == 'Military and Political Career') {
-//                group.id = 'm1'
-//                message.id = 'm1_message'
-//            }
-//            else if (name == 'Current Events') {
-//                group.id = 'c1'
-//                message.id = 'c1_message'
-//            }
-//            else {
-//                console.log('Grouping has changed')
-//            }
-//        }
     </script>
 </html>
